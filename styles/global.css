@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #0d7ff2;
+  --secondary-color: #e7edf4;
+  --text-dark: #0d141c;
+  --text-light: #49739c;
+  --background-color: #f8fafc;
+}
+
+body {
+  @apply font-sans bg-[var(--background-color)] text-[var(--text-dark)];
+}
+
+.primary-button {
+  @apply bg-[var(--primary-color)] text-white hover:bg-opacity-90 transition-colors;
+}
+
+.secondary-button {
+  @apply bg-[var(--secondary-color)] text-[var(--text-dark)] hover:bg-opacity-80 transition-colors;
+}
+:root {
+  --primary-color: #0d7ff2;
+  --secondary-color: #e7edf4;
+  --text-dark: #0d141c;
+  --text-light: #49739c;
+  --background-color: #f8fafc;
+}
